@@ -1,0 +1,40 @@
+body{
+    background-image: url(img/105865831_1123757008006656_6523332651314606187_n.jpg);
+    background-size: cover;
+}
+
+div .orarul{
+    width: 456px;
+    margin: 0px 0px 20px;
+    padding: 20px 29px 8px 30px;
+}
+
+div .orarul h1{
+    color: #666666 ;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 0px 0px 20px;
+    padding: 15px 29px 15px 15px;
+   
+}
+
+
+
+div .grupe{
+    width: 456px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 0px 20px;
+    padding: 0px 29px 15px 30px;
+}
+button{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
