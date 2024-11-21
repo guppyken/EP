@@ -3,8 +3,8 @@ body{
     background-size: cover;
     width: 1280px;
     margin: 1em 6em;
-    display: flex;
-    justify-content: flex-start ; 
+    display: inline-flex;
+    justify-content: space-between ; 
     align-items: first baseline;    
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
                         url('img/105865831_1123757008006656_6523332651314606187_n.jpg') no-repeat center center/cover;
@@ -155,16 +155,78 @@ select#vibor{
     height: 50px;
     font-size: 16px;
     font-weight: 500;
+
+}
+
+.options{
+    padding: 0 0 20px 0;
 }
 
 th, td {
-    border: 1px solid rgb(255, 255, 255); /* Граница для ячеек */
+    border: 0.5px solid rgb(255, 255, 255); /* Граница для ячеек */
     padding: 10px;
     text-align: center;
     color: white;
+    padding: 0 0;
+    width: 43px;
+    height: 24px;
 }
 
 th {
     background-color: green;
 }
 
+table{
+    width: 456px;
+    height: 200px;
+}
+
+td{
+    
+    background-color: white;
+}
+
+#lect{
+    background-color: #83f9ba;
+}
+
+#ep{
+    background-color: #dd4242;
+}
+#s{
+    background-color: #1e065a;
+}
+#r{
+    background-color: orange;
+}
+
+div .text{
+    width: 456px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div .text p{
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 0px 10px 5px 10px;
+}
+
+img{
+    padding: 0 0 0 270px;
+    width: 130px;
+    justify-items: center;
+    justify-content: center;
+}
+div .right{
+    width: 600px;
+    justify-content: center;
+    justify-items: center;
+}
+.right h1{
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
